@@ -2,10 +2,6 @@ body {
     background: url('../img/bg.jpg');
     font-family: 'Open Sans', Arial, sans-serif;
 	background-repeat: no-repeat;
-	-moz-background-size: 100%; 
-    -webkit-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%;
     font-size: 12px;
 }
 
@@ -115,6 +111,12 @@ input[type="password"] {
     background: #000;
     border: none;
 }
+ 
+ .create {
+    margin-top: 20px;
+ }
 
-/*SECTION*/
+.foot_text {
+    padding: 10px 60px;
+}
 
