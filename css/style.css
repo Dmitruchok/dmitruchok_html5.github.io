@@ -47,16 +47,25 @@ body {
 }
 
 .nav {
-    margin: 7px 10px 0 10px;
+    margin: 0;
 }
 
 .nav li {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .nav a {
+    display: block;
+    padding: 7px 10px 10px 10px;
+    color: #35a5e5;
     text-decoration: none;
 }
+
+.nav a:hover {
+    color: #fff;
+    background: #35a5e5;
+}
+
 
 /*BOX*/
 
@@ -99,6 +108,7 @@ body {
 }
 
 input[type="text"] {
+    transition: all 0.30s ease-in-out;
     color: #fff;
     width: 200px;
     padding: 5px;
@@ -108,12 +118,12 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    box-shadow: 3px 2px 1px  #1b5288;
+    box-shadow: 0 -3px 5px  #1b5288;
     background: #1b5288;
-    border: none;
 }
 
 input[type="password"] {
+    transition: all 0.30s ease-in-out;
     color: #fff;
     width: 200px;
     padding: 5px;
@@ -121,6 +131,12 @@ input[type="password"] {
     background: #000;
     border: none;
 }
+
+input[type="password"]:focus {
+    box-shadow: 0 -3px 5px  #1b5288;
+    background: #1b5288;
+}
+
  
  .create {
     margin-top: 20px;
