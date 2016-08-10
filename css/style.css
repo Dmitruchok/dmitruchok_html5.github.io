@@ -1,5 +1,7 @@
 body {
     background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
     font-family: 'Open Sans', Arial, sans-serif;
 	background-repeat: no-repeat;
     font-size: 12px;
@@ -23,8 +25,8 @@ body {
 
 
 .flag img {
-    height: 17px;
-    width: 15px;
+    height: 13px;
+    width: 13px;
 }
 
 .flag a {
@@ -36,7 +38,7 @@ body {
     float: right;
 }
 
-.link p, a {
+.link span, a {
     color: #fff;
 }
 
