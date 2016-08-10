@@ -10,8 +10,8 @@ body {
 
 .top {
     display: flex;
-    flex-direction: row-reverse;
-    height: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
     background: #085495;
 }
 
@@ -21,14 +21,14 @@ body {
 }
 
 .flag {
-    padding: 0 10px;
+    padding: 0 20px;
     border-left: 1px solid white;
 }
 
 
 .flag img {
-    height: 20px;
-    width: 20px;
+    height: 26px;
+    width: 26px;
 }
 
 .flag a {
@@ -37,7 +37,9 @@ body {
 }
 
 .link {
-    margin: 6px 10px 0 10px;
+    background: #49a4d7;
+    padding: 8px 11px;
+    margin-right: 20px;
 }
 
 .link span, a {
@@ -49,12 +51,12 @@ body {
 }
 
 .nav li {
-    margin-right: 10px;
+    margin-right: 3px;
 }
 
 .nav a {
     display: block;
-    padding: 7px 10px 10px 10px;
+    padding: 10px 13px;
     color: #35a5e5;
     text-decoration: none;
 }
