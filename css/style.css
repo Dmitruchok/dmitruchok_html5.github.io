@@ -10,6 +10,8 @@ body {
 /*TOP*/
 
 .top {
+    display: flex;
+    flex-direction: row-reverse;
     height: 30px;
     background: #085495;
 }
@@ -20,7 +22,7 @@ body {
 }
 
 .flag {
-    float: right;
+    border-left: 1px solid white;
 }
 
 
@@ -30,12 +32,14 @@ body {
 }
 
 .flag a {
+    margin: 5px 10px 0 10px;
+    display: block;
     text-decoration: none;
     color: #fff;
 }
 
 .link {
-    float: right;
+    margin: 6px 10px 0 10px;
 }
 
 .link span, a {
@@ -43,7 +47,11 @@ body {
 }
 
 .nav {
-    float: right;
+    margin: 7px 10px 0 10px;
+}
+
+.nav li {
+    margin-right: 20px;
 }
 
 .nav a {
