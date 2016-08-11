@@ -55,13 +55,12 @@ a {
 }
 
 .nav li {
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
 .nav a {
     display: block;
-    padding: 9px;
-    padding-right: 16px;
+    padding: 10px 13px;
     color: #35a5e5;
     text-decoration: none;
 }
@@ -131,15 +130,15 @@ a {
 }
 
 
-input [type="text"]:focus {
+input[type="text"]:focus {
     border: 0;
     background: #1b5288;
     box-shadow: 0 0 15px #42616b;
 }
 
-input [type="password"],
-input [type="text"] {
-    width: 260px;
+input[type="text"],
+input[type="password"] {
+    width: 256px;
     margin: 8px;
     padding: 11px;
     transition: .30s ease-in-out;
@@ -148,7 +147,8 @@ input [type="text"] {
     color: #fff;
 }
 
-input [type="password"]:focus {
+input[type="password"]:focus {
+    border: 0;
     background: #1b5288;
     box-shadow: 0 0 15px #42616b;
 }
@@ -167,7 +167,7 @@ label {
     margin-top: 23px;
  }
 
-input [type="submit"] {
+input[type="submit"] {
     width: 152px;
     height: 35px;
     border: 0;
@@ -180,4 +180,14 @@ input [type="submit"] {
     padding: 6px 110px;
     font-size: 11px;
     line-height: 16px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    padding-left: 9px;
+    color: #f5ffff;
+}
+
+input[type="password"]::-webkit-input-placeholder {
+    padding-left: 9px;
+    color: #f5ffff;
 }
