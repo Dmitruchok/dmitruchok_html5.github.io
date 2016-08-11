@@ -21,14 +21,17 @@ body {
 }
 
 .flag {
-    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
     border-left: 1px solid white;
 }
 
 
 .flag img {
-    height: 26px;
-    width: 26px;
+    padding: 6px 7px 5px 0;
+    height: 24px;
+    width: 25px;
 }
 
 .flag a {
@@ -38,7 +41,7 @@ body {
 
 .link {
     background: #49a4d7;
-    padding: 8px 11px;
+    padding: 8px 10px;
     margin-right: 20px;
 }
 
@@ -56,7 +59,8 @@ body {
 
 .nav a {
     display: block;
-    padding: 10px 13px;
+    padding: 9px;
+    padding-right: 16px;
     color: #35a5e5;
     text-decoration: none;
 }
@@ -69,6 +73,10 @@ body {
 
 /*BOX*/
 
+.main-block {
+    margin: 213px 0 350px 0;
+}
+
 .cs {
     text-align: center;
     background: rgba(0, 0, 0, 0.52);
@@ -77,8 +85,10 @@ body {
 }
 
 .cs h1 {
-    margin: 213px 0 2px 0;
-    padding: 17px;
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    padding: 18px;
     color: #fff;
 }
 
@@ -95,8 +105,23 @@ body {
 }
 
 .log_in img {
-    padding: 34px;
-    border-bottom: 1px solid #000;
+    padding: 37px;
+}
+
+.border{
+    display: flex;
+    justify-content: center;
+}
+
+.line1,
+.line2 {
+    float: left;
+    border-bottom: 1px solid;
+    width: 123px;
+}
+
+.text_center p {
+    margin: -7px 6px;
 }
 
 .registr {
