@@ -126,7 +126,7 @@ body {
 }
 
 .registr {
-    margin-top: 23px;
+    margin-top: 27px;
     text-align: center;
 }
 
@@ -142,8 +142,8 @@ input[type="text"]  {
     transition: all 0.30s ease-in-out;
     color: #fff;
     width: 260px;
-    padding: 10px;
-    margin: 10px;
+    padding: 11px;
+    margin: 8px;
     background: #000;
     border: none;
 }
@@ -154,9 +154,13 @@ input[type="password"]:focus {
 }
 
 .checkbox {
-    width: 250px;
-    margin-top: 4px;
-    margin-left: 130px;
+    display: flex;
+    margin-top: 12px;
+    margin-left: 145px;
+}
+
+label {
+    margin-left: 10px;
 }
 
  .create {
