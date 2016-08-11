@@ -116,12 +116,13 @@ body {
 .line1,
 .line2 {
     float: left;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #000;
     width: 123px;
 }
 
 .text_center p {
     margin: -7px 6px;
+    color: #727272;
 }
 
 .registr {
