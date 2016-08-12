@@ -1,7 +1,7 @@
 body {
     background: url('../img/bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 13px;
 }
@@ -9,6 +9,8 @@ body {
 /*TOP*/
 
 .top {
+    width: 1215px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -73,7 +75,7 @@ a {
 /*BOX*/
 
 .main-block {
-    margin: 213px 350px;
+    margin: 200px 350px 213px 400px;
 }
 
 .cs {
@@ -131,6 +133,7 @@ a {
 
 
 input[type="text"]:focus {
+    outline: none;
     border: 0;
     background: #1b5288;
     box-shadow: 0 0 15px #42616b;
