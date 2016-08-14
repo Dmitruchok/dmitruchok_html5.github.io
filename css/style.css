@@ -2,9 +2,15 @@ body {
     background: url('../img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center 35px;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Helvetica Neue' Arial, sans-serif;
     /*soverflow: hidden;*/
     font-size: 13px;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(C:\Users\Оля\Downloads/HelveticaNeue.ttf);
+
 }
 
 /*TOP*/
@@ -32,9 +38,10 @@ body {
 
 
 .flag img {
-    width: 25px;
-    height: 24px;
-    padding: 5px 7px 5px 0;
+    width: 23px;
+    height: 26px;
+    padding: 8px 7px 4px 0;
+
 }
 
 .flag a {
@@ -44,22 +51,23 @@ body {
 
 .link {
     margin-right: 20px;
-    padding: 9px 18px;
+    padding: 12px;
 }
 
 .link span,
 a {
+    padding: 2px;
     color: #fff;
 }
 
 .nav {
     margin: 0;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .nav a {
     display: block;
-    padding: 11px 14px;
+    padding: 12px 15px;
     color: #35a5e5;
     text-decoration: none;
 }
@@ -82,7 +90,7 @@ a {
 /*BOX*/
 
 .main-block {
-    margin: 213px 300px 233px 350px;
+    margin: 215px 300px 233px 350px;
 }
 
 .cs {
@@ -113,7 +121,7 @@ a {
 }
 
 .log_in img {
-    padding: 36px;
+    padding: 34px;
 }
 
 .border {
@@ -142,10 +150,10 @@ a {
 
 
 input[type=text]:focus {
-    box-shadow: 0 0 30px #42616b;
-    background: #1b5288;
-    outline: none;
     border: 1px solid #42616b;
+    outline: none;
+    background: #1b5288;
+    box-shadow: 0 0 30px #42616b;
 }
 
 
@@ -161,10 +169,10 @@ input[type="password"] {
 }
 
 input[type="password"]:focus {
-    box-shadow: 0 0 30px #42616b;
-    background: #1b5288;
-    outline: none;
     border: 1px solid #42616b;
+    outline: none;
+    background: #1b5288;
+    box-shadow: 0 0 30px #42616b;
 }
 
 .checkbox {
@@ -174,7 +182,7 @@ input[type="password"]:focus {
 }
 
 label {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .create {
@@ -191,7 +199,7 @@ input[type="submit"] {
 }
 
 .foot_text {
-    padding: 6px 110px;
+    padding: 6px 115px;
     font-size: 11px;
     line-height: 16px;
 }
