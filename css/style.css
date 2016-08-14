@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center 35px;
     font-family: 'Open Sans', Arial, sans-serif;
-    overflow: hidden;
+    /*soverflow: hidden;*/
     font-size: 13px;
 }
 
@@ -152,6 +152,7 @@ input[type="password"] {
 }
 
 input[type="password"]:focus {
+    outline: none;
     border: 0;
     background: #1b5288;
     box-shadow: 0 0 15px #42616b;
