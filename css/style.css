@@ -44,8 +44,7 @@ body {
 
 .link {
     margin-right: 20px;
-    padding: 9px 10px;
-    background: #49a4d7;
+    padding: 9px 18px;
 }
 
 .link span,
@@ -55,15 +54,12 @@ a {
 
 .nav {
     margin: 0;
-}
-
-.nav li {
-    margin-right: 10px;
+    padding-right: 5px;
 }
 
 .nav a {
     display: block;
-    padding: 10px 13px;
+    padding: 11px 14px;
     color: #35a5e5;
     text-decoration: none;
 }
@@ -73,10 +69,20 @@ a {
     color: #fff;
 }
 
+.link:hover {
+    background: #35a5e5;
+    color: #fff;
+}
+
+.flag:hover {
+    background: #35a5e5;
+    color: #fff;
+}
+
 /*BOX*/
 
 .main-block {
-    margin: 213px 350px 233px 403px;
+    margin: 213px 300px 233px 350px;
 }
 
 .cs {
@@ -107,10 +113,11 @@ a {
 }
 
 .log_in img {
-    padding: 37px;
+    padding: 36px;
 }
 
 .border {
+
     display: flex;
     justify-content: center;
 }
@@ -119,7 +126,8 @@ a {
 .line2 {
     width: 123px;
     float: left;
-    border-bottom: 1px solid #000;
+    border-bottom: .5px solid #727272;
+    box-shadow: 0 1px 1px #000;
 }
 
 .text_center p {
@@ -128,44 +136,45 @@ a {
 }
 
 .registr {
-    margin-top: 27px;
+    margin-top: 26px;
     text-align: center;
 }
 
 
-input[type="text"]:focus {
-    outline: none;
-    border: 0;
+input[type=text]:focus {
+    box-shadow: 0 0 30px #42616b;
     background: #1b5288;
-    box-shadow: 0 0 15px #42616b;
+    outline: none;
+    border: 1px solid #42616b;
 }
+
 
 input[type="text"],
 input[type="password"] {
     width: 256px;
-    margin: 8px;
-    padding: 11px;
+    margin: 9px;
+    padding: 10px;
     transition: .30s ease-in-out;
-    border: 0;
+    border: 1px solid #000;
     background: #000;
     color: #fff;
 }
 
 input[type="password"]:focus {
-    outline: none;
-    border: 0;
+    box-shadow: 0 0 30px #42616b;
     background: #1b5288;
-    box-shadow: 0 0 15px #42616b;
+    outline: none;
+    border: 1px solid #42616b;
 }
 
 .checkbox {
     display: flex;
-    margin-top: 12px;
+    margin-top: 5px;
     margin-left: 145px;
 }
 
 label {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .create {
