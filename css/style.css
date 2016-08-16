@@ -155,7 +155,7 @@ input[type=text]:focus {
     border-top: none;
     outline: none;
     background: #1b5288;
-    box-shadow: 0 0 30px #42616b;
+    box-shadow: 0 0 10px 2px #689bcc;
 }
 
 
@@ -176,7 +176,7 @@ input[type="password"]:focus {
     border-bottom: .5px solid #727272;
     outline: none;
     background: #1b5288;
-    box-shadow: 0 0 30px #42616b;
+    box-shadow: 0 0 10px 2px #689bcc;
 }
 
 .checkbox {
