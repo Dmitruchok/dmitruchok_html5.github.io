@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url(C:\Users\Оля\Downloads/HelveticaNeue.ttf);
+    font-family: 'HelveticaNeue', Arial, sans-serif;
+    src: url(../fonts/helveticaneue-thin-webfont.woff);
+    src: url(../fonts/helveticaneue-thin-webfont.woff2);
 }
 
 body {
     background: url('../img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center 35px;
-    font-family: 'Helvetica Neue' Arial, sans-serif;
     font-size: 13px;
 }
 
@@ -88,7 +88,7 @@ a {
 /*BOX*/
 
 .main-block {
-    margin: 211px 300px 0 350px;
+    margin: 214px 300px 0 347px;
 }
 
 .cs {
